@@ -4,13 +4,13 @@ int main()
 	int k, x = 2;
 	printf("Enter number : ");
 	scanf("%d", &k);
-	printf("Factoring result : ")
+	printf("Factoring result : ");
 	while (k != 1) {
 		while (k % x == 0) {
 			printf("%d ", x);
 			k = k / x;
 			if (k != 1) {
-				printf("x");
+				printf("x ");
 			}
 		}
 		x++;
