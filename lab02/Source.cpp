@@ -5,6 +5,7 @@ int main()
 	printf("Enter number : ");
 	scanf("%d", &k);
 	printf("Factoring result : ");
+
 	while (k != 1) {
 		while (k % x == 0) {
 			printf("%d ", x);
